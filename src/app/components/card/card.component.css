@@ -1,0 +1,23 @@
+table {
+  width: 100%;
+  background-color: unset;
+  font-size: larger;
+}
+.mat-cell {
+  color: rgb(255, 0, 0);
+  font-size: larger;
+}
+
+.mat-mdc-table tbody, .mat-mdc-table tfoot, .mat-mdc-table thead, .mat-mdc-cell, .mat-mdc-footer-cell, .mat-mdc-header-row, .mat-mdc-row, .mat-mdc-footer-row, .mat-mdc-table .mat-mdc-header-cell{
+  color: wheat;
+  font-size: larger;
+}
+
+.quantity-field{
+  max-width: 60px;
+  background: none;
+  color: wheat;
+  border: none;
+  font-size: larger;
+}
+

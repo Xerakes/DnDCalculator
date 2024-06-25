@@ -1,0 +1,14 @@
+<div class="colored">
+  <label for="category">Select Category: </label>
+  <select id="category" (change)="onCategoryChange($event)">
+    <option *ngFor="let category of categories" [value]="category">{{ category }}</option>
+  </select>
+</div>
+
+<div class="item-list" cdkDropList (cdkDropListDropped)="drop($event)">
+  <div *ngFor="let item of filteredItems" class="item" cdkDrag>
+    <img [src]="item.imageUrl" [alt]="item.name">
+  </div>
+</div>
+
+

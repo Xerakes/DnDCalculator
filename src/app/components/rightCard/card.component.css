@@ -1,0 +1,32 @@
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.item {
+  width: 50px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: move;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+.colored{
+  font-size: larger;
+  color: wheat;
+}
+
+#category{
+  background: none;
+  font-size: larger;
+  color: wheat;
+  border: none;
+}
+
+

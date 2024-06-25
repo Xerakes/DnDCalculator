@@ -1,0 +1,43 @@
+<div class="rowHead">
+  <div cdkDropList #headSlot="cdkDropList" [cdkDropListData]="items" class="medium-slot"
+    (cdkDropListDropped)="drop($event)">
+  </div>
+
+</div>
+
+<div class="rowChest">
+
+  <div cdkDropList #handsSlot="cdkDropList" [cdkDropListData]="items" class="medium-slot"
+    (cdkDropListDropped)="drop($event)">
+  </div>
+
+  <div cdkDropList #chestSlot="cdkDropList" [cdkDropListData]="items" class="big-slot"
+    (cdkDropListDropped)="drop($event)">
+  </div>
+
+
+
+
+
+
+  <div cdkDropList #backSlot="cdkDropList" [cdkDropListData]="items" class="medium-slot"
+    (cdkDropListDropped)="drop($event)">
+  </div>
+
+</div>
+
+<div class="rowLegs">
+
+  <div cdkDropList #dummySlot="cdkDropList" [cdkDropListData]="items" class="dummy-slot"
+    (cdkDropListDropped)="drop($event)">
+  </div>
+
+  <div cdkDropList #LegsSlot="cdkDropList" [cdkDropListData]="items" class="big-slot"
+    (cdkDropListDropped)="drop($event)">
+  </div>
+
+  <div cdkDropList #footSlot="cdkDropList" [cdkDropListData]="items" class="medium-slot"
+    (cdkDropListDropped)="drop($event)">
+  </div>
+
+</div>
